@@ -14,13 +14,13 @@ After doing this, you will have a local copy of the repository. There will be a 
 
 Go to GitHub under *your own* account and create a repository for this assignment. Then go into the settings of your repository and **make sure it is listed as "private"**. Next click on "Settings" and "Collaborators" and add me as a collaborator on your repository (my GitHub ID is `srp33`).
 
-At the command line, `cd` to the Assignment-1 directory that you cloned from my repository. Then enter the following commands (replace `<clone URL>` with the clone URL from your repository (the one you get when you click on "Clone or download"):
+At the command line, `cd` to the Assignment-1 directory that you cloned from my repository. Then enter the following commands (replace `<clone URL>` with the clone URL from **your** repository (the one you get when you click on "Clone or download"):
 
 ```
 git init
 git add --all
 git commit -m "first commit"
-git remote add origin <git URL>
+git remote add origin <clone URL>
 git push -u origin master
 ```
 
