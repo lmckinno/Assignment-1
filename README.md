@@ -2,17 +2,27 @@
 
 ### Instructions
 
-The purpose of this assignment is to help you become more familiar with basic R coding. To get started, please create a [GitHub.com](https://www.github.com) account if you have not already done so. Then apply for the [academic research discount](https://help.github.com/articles/applying-for-an-academic-research-discount/) so you can create *private* GitHub repositories.
+The purpose of this assignment is to help you become more familiar with basic R coding. To get started, please create a [GitHub.com](https://www.github.com) account if you have not already done so. Then apply for the [academic research discount](https://help.github.com/articles/applying-for-an-academic-research-discount/) so you can create *private* GitHub repositories. Next make sure you have the `git` software [installed](https://git-scm.com/downloads) on your personal computer. 
 
-After doing this, please "fork" this GitHub repository. Click on the "Fork" button at the top-right of this page. After doing so, you will have your own copy of this repository. Go into the settings of your repository and **make sure it is listed as "private"**.
-
-Next make sure you have the `git` software [installed](https://git-scm.com/downloads) on your personal computer. Then on GitHub, copy the URL of **your** repository (see the `Clone or download` button on the top right of the page). At the command line, enter the following command (replacing `<clone URL>` with the actual URL):
+After doing this, copy the URL of this repository on GitHub (see the `Clone or download` button on the top right of the page). Then at the command line, enter the following command (replacing `<clone URL>` with the actual URL):
 
 ```
 git clone <clone URL>
 ```
 
-After doing this, you will have a local copy of the repository.
+After doing this, you will have a local copy of the repository. There will be a directory called `.git` in this repository, which has the git commit history, etc. Delete this directory so you can start fresh (**this is important!!**).
+
+Go to GitHub under *your own* account and create a repository for this assignment. Then go into the settings of your repository and **make sure it is listed as "private"**. Next click on "Settings" and "Collaborators" and add me as a collaborator on your repository (my GitHub ID is `srp33`).
+
+At the command line, `cd` to the Assignment-1 directory that you cloned from my repository. Then enter the following commands (replace `<git URL>` with the clone URL from your repository (the one you get when you click on "Clone or download"):
+
+```
+git init
+git add --all
+git commit -m "first commit"
+git remote add origin <git URL>
+git push -u origin master
+```
 
 Read the instructions carefully for each problem listed below. For each of the problems, you should write an R script called `X.R`, but replace `X` with the problem number. For example, for problem 1, the R script would be named `1.R`. Store these scripts at the root level of your repository.
 
