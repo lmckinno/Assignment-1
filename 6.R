@@ -1,0 +1,7 @@
+print(abs(-15.5))
+ceiling(3.8)
+floor(3.8)
+round(4.483847,digits = 1)
+sqrt(9.99999)
+log(16)
+log2(16)
