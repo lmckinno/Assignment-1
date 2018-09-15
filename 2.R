@@ -3,11 +3,11 @@ y <- 3.0
 
 print(x)
 print(y)
-class(x)
-class(y)
-sum(x+y)
-class(x+y)
+print(class(x))
+print(class(y))
+print(sum(x+y))
+print(class(x+y))
 
 y <- as.integer(y)
-class(y)
-class(x+y)
+print(class(y))
+print(class(x+y))
